@@ -44,9 +44,11 @@ header {
   height: auto;
   border-radius: 40px;
 }
-.welcome-text {
+
+h2 {
+  color: rgb(206, 223, 218);
+  font-style: italic;
+  font-size: 20px;
   text-align: center;
-  color: darksalmon;
-  a {
-  }
+  padding-top: 200px;
 }
