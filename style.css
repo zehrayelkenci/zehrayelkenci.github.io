@@ -26,18 +26,27 @@ header {
   padding: 10px;
 }
 .nav-bar li a {
-  color: blue;
+  color: rgb(163, 163, 224);
   text-decoration: none;
-  padding: 5px 20x;
+  padding: 10px 20x;
+  border-radius: 3px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 25px;
 }
 .nav-bar li a:hover {
   background-color: #fff;
   color: #333;
+  border-radius: 5px;
 }
 .logo img {
   width: 100px;
   float: left;
   height: auto;
+  border-radius: 40px;
+}
+.welcome-text {
+  text-align: center;
+  color: darksalmon;
+  a {
+  }
 }
