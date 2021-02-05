@@ -19,17 +19,18 @@ header {
   float: right;
   list-style: none;
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 50px;
 }
 .nav-bar li {
   display: inline-block;
   padding: 10px;
 }
 .nav-bar li a {
-  color: rgb(163, 163, 224);
+  color: rgb(156, 156, 241);
+  background-color: rgb(99, 72, 121);
   text-decoration: none;
-  padding: 10px 20x;
-  border-radius: 3px;
+  padding: 15px;
+  border-radius: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 25px;
 }
