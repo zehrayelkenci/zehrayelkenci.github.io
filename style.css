@@ -2,22 +2,24 @@
   margin: 0;
   padding: 0;
 }
-.head {
-  width: 1170px;
-  margin: auto;
-}
+
 header {
-  background: url("home/hyf/Pictures/ilkdogangunes.jpeg");
-  -webkit-background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://wallpaperaccess.com/full/1261770.jpg");
   height: 100vh;
+  background-color: #cccccc;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   position: relative;
+}
+
+.head {
 }
 .nav-bar {
   float: right;
   list-style: none;
   margin-top: 30px;
+  font-size: 30px;
 }
 .nav-bar li {
   display: inline-block;
@@ -28,9 +30,14 @@ header {
   text-decoration: none;
   padding: 5px 20x;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 14px;
+  font-size: 25px;
 }
 .nav-bar li a:hover {
   background-color: #fff;
   color: #333;
+}
+.logo img {
+  width: 100px;
+  float: left;
+  height: auto;
 }
